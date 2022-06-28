@@ -1,0 +1,54 @@
+.card{
+    height: 300px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-img{
+    background-color: beige;
+    width: 100%;
+    height: 60%;
+   border-top-right-radius:10px ;
+   border-top-left-radius:10px ;
+  
+}
+.card-name{
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    background-color: rgb(226, 221, 221);
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+button{
+    margin: 20px;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 100%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(212, 217, 212);
+    transform: scale(1.07);
+    
+}
+
+.title{
+   
+    position: relative;
+    top: 10px;
+    font-size: 2rem;
+}
+.card-info{
+    position: relative;
+    top: 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
